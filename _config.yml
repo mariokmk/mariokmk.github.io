@@ -3,8 +3,8 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Technology, CS and Random Thoughts
-tagline:          Mario Kosmiskas
+title:            Mario Kosmiskas
+tagline:          Tech Thoughts
 url:              http://mariokmk.github.io
 paginate:         1
 baseurl:          /
