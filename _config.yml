@@ -1,24 +1,55 @@
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
+### Site info:
+title: Tech Thoughts
+tagline: Mario Kosmiskas
+author: Mario Kosmiskas
+email: 
+description: "Mario's Personal Blog" # Description will appear in head meta and in your feed.xml site description
+keywords: ""
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://mariokmk.github.io" # the base hostname & protocol for your site
 
-# Setup
-title:            Mario Kosmiskas
-tagline:          Tech Thoughts
-url:              http://mariokmk.github.io
-paginate:         1
-baseurl:          /
-author:
-  name:           Mario Kosmiskas
-  url:            https://twitter.com/mariokmk
-  email:          
 
-# Custom vars
-version:          1.0.0
-github:
-  repo:           https://github.com/mariokmk/mariokmk.github.io
+### Personal info and site tools info:
+twitter_username: mariokmk
+github_username:  mariokmk
+disqus_shortname: mariokmk
+favicon:     "/images/favicon.ico"
+aboutme: Nothing, really. # these are shown on aboutme-sidebar.
+aboutme_photo: /images/me.jpg # your photo.
 
-# Header
-pages_list:
-  Archive: '/archive'
-  Feed: '/atom.xml'
+
+### Site setting:
+ShowContactInfo: "False" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
+default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
+default_locale: "en"
+
+locales:
+    en:
+      Aboutme: "About Me"
+      Archives: "Archives"
+      Blogroll: "Blogroll"
+      Categories: "Categories"
+      Copyright_Notice: "Copyright Notice"
+      Recent_Posts: "Recent Posts"
+      Tags: "Tags"
+      Previous: "Older"
+      Next: "Newer"
+      PostedInCategories: "Posted in"
+      Taggedwith: "and tagged"  
+      PostDate: "on "
+
+### your Blogroll info, only name can shown on the page.
+
+Blogroll:
+    - name: Little Big Details
+      href: http://littlebigdetails.com
+      title: Little Big Details
+    - name: LLVM Project Blog
+      href: http://blog.llvm.org
+      title: LLVM Project News and Details
+
+
+### Build settings
+markdown: kramdown
+highlighter: pygments
+paginate: 5

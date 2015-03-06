@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Personal Blog Up and Running
+category: blogging
+#summary: Sample summary....
+tags:
+- website
 ---
 
 I've been planning on getting my blog running for a while. I didn't want to deal with hosting it myself so my options were the usual suspects like WordPress and Blogger. Those are intersting platforms with their own strenghts but I wanted something lighter, easy to edit and which would maintain history.
